@@ -1,0 +1,27 @@
+﻿p {font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:small}
+
+span {font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:medium; color:blue;}
+
+h1 {font-family:Calibri; font-size:large;background-color:silver; color:black}
+
+h2 {font-family:Calibri; font-size:xx-large}
+
+
+table{
+    width:70%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+th {
+	background-color:silver;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:center;
+}
+td {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	position:relative;
+	text-align:center;
+	background-color:white;
+	
+}

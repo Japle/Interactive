@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="agenda"/>
+	<buildpathentry kind="src" path="agenda_oop"/>
+	<buildpathentry kind="src" path="class_mail"/>
+	<buildpathentry kind="src" path="funcao_mail"/>
+	<buildpathentry kind="src" path="Site"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

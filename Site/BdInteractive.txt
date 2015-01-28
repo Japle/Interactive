@@ -1,0 +1,108 @@
+===Banco de Dados interactive
+
+== Estrutura da tabela loja
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdLoja**//|int(11)|Não|
+|NomeLoja|varchar(30)|Sim|NULL
+|CNPJ|decimal(10,0)|Não|
+|Endereco|varchar(35)|Sim|NULL
+|Gerente|varchar(35)|Sim|NULL
+|Insc_Estadual|decimal(10,0)|Não|
+== Extraindo dados da tabela loja
+
+== Estrutura da tabela loja
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdLoja**//|int(11)|Não|
+|NomeLoja|varchar(30)|Sim|NULL
+|CNPJ|decimal(10,0)|Não|
+|Endereco|varchar(35)|Sim|NULL
+|Gerente|varchar(35)|Sim|NULL
+|Insc_Estadual|decimal(10,0)|Não|
+== Estrutura da tabela pedidos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdPedido**//|int(11)|Não|
+|IdLoja|int(11)|Não|
+|CNPJ|decimal(10,0)|Não|
+|NomeLoja|varchar(30)|Sim|NULL
+|IdItem|decimal(10,0)|Não|
+|Quant_Itens|decimal(10,0)|Não|
+|Valor|decimal(10,0)|Não|
+|Forma_Pag|varchar(25)|Sim|NULL
+== Extraindo dados da tabela pedidos
+
+|1010|1535|9999999999|Interactive|12|5|50|cartão
+== Estrutura da tabela pedidos
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdPedido**//|int(11)|Não|
+|IdLoja|int(11)|Não|
+|CNPJ|decimal(10,0)|Não|
+|NomeLoja|varchar(30)|Sim|NULL
+|IdItem|decimal(10,0)|Não|
+|Quant_Itens|decimal(10,0)|Não|
+|Valor|decimal(10,0)|Não|
+|Forma_Pag|varchar(25)|Sim|NULL
+== Estrutura da tabela produto
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdProduto**//|int(11)|Não|
+|IdFornecedor|int(11)|Não|
+|IdTipo|int(11)|Não|
+|Descricao|varchar(50)|Sim|NULL
+|Tipo|varchar(20)|Sim|NULL
+|Cor|varchar(10)|Sim|NULL
+|Quantidade|int(11)|Sim|NULL
+== Extraindo dados da tabela produto
+
+== Estrutura da tabela produto
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdProduto**//|int(11)|Não|
+|IdFornecedor|int(11)|Não|
+|IdTipo|int(11)|Não|
+|Descricao|varchar(50)|Sim|NULL
+|Tipo|varchar(20)|Sim|NULL
+|Cor|varchar(10)|Sim|NULL
+|Quantidade|int(11)|Sim|NULL
+== Estrutura da tabela usuario
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdUsuario**//|int(11)|Não|
+|Nome|varchar(35)|Sim|NULL
+|DataNasc|varchar(10)|Sim|NULL
+|email|varchar(35)|Sim|NULL
+|Login|varchar(10)|Sim|NULL
+|Senha|varchar(15)|Sim|NULL
+|Telefone|varchar(20)|Sim|NULL
+== Extraindo dados da tabela usuario
+
+|1|Root Interactive|15/12/2010|contato@interactive.com|root|123456|11 5555-6161
+== Estrutura da tabela usuario
+
+|------
+|Coluna|Tipo|Nulo|Padrão
+|------
+|//**IdUsuario**//|int(11)|Não|
+|Nome|varchar(35)|Sim|NULL
+|DataNasc|varchar(10)|Sim|NULL
+|email|varchar(35)|Sim|NULL
+|Login|varchar(10)|Sim|NULL
+|Senha|varchar(15)|Sim|NULL
+|Telefone|varchar(20)|Sim|NULL

@@ -1,0 +1,48 @@
+﻿
+body{font:14px/18px "Trebuchet MS",Arial, Helvetica, sans-serif;}
+div, ul, h2, h3, img{padding:0px; margin:0px;}
+p {font-size:medium; background-image:url('images/background.jpg'); color:white}
+span {font-family:Calibri; font-size:small; color:white}
+ul{list-style-type:none;}
+li {width: 180px; height: 40px; position:relative;  border-bottom:1px dashed blue;}
+
+#pag {width:1024px; height:1000px; background-color:white; background-image:url('images/background (2).jpg'); background-size: 1024px 1000px}
+#corpo {width:950px; height:650px; float:left; position:relative}
+#menu {width:200px; height:640px;float:left;}
+#conteudo {width:750px; height:640px; float:left}
+#roda {background-image:url('images/rodape.jpg');background-size: 980px 50px; width:980px; height:50px;float:left}
+
+#mainPan{width:960px; height:350px; position:relative; margin:auto;}
+
+
+#topPan{width:778px; height:317px; background-image:url('images/background_x2.jpg'); background-size: 778px 317 px; position:relative;}
+#topPan img.logo{width:260px; height:56px; position:absolute; top:54px; left:34px;}
+#topPan ul{width:107px; height:126px; font-weight:bold; position:absolute; top:161px; left:136px; font-size:13px; line-height:24px;}
+#topPan ul li{width:107px; height:24px; border-bottom:1px dashed blue;}
+#topPan ul li a{width:82px; height:24px; display:block; background:url(images/arrow-normal.gif) 0 8px no-repeat #fff; color:black; line-height:24px; text-decoration:none; padding:0 0 0 25px;}
+#topPan ul li a:hover{background:url(images/arrow-hover.gif) 0 8px no-repeat #ECFFD5; color:black; text-decoration:none;}
+#topPan ul li.home{width:82px; height:24px; display:block; background:url(images/arrow-hover.gif) 0 8px no-repeat #ECFFD5; color:black; line-height:24px; text-decoration:none; padding:0 0 0 25px;}
+
+a:link, 
+
+a:visited {
+
+text-decoration: none;
+color:olive;
+
+}
+
+a:hover {
+
+text-decoration: underline;
+font-size:120%;
+color:green;
+background:url('images/arrow-hover.gif') 0 8px no-repeat #ECFFD5;
+}
+
+a:active {
+text-decoration: none;
+color:black;
+
+}
+
